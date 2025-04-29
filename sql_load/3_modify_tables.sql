@@ -42,5 +42,5 @@ FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\job_postings_fact.
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY skills_job_dim
-FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\skills_job_dim.csv'
+FROM 'C:\Users\schenpj\Documents\Learning - Data\Luke Barousse\SQL I\SQL_Project_Data_Job_Analysis\csv_files\skills_job_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
